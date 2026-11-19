@@ -1,0 +1,51 @@
+@use "../../variables" as *;
+
+.day-card {
+  display: grid;
+  gap: 14px;
+}
+
+.day-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+.day-badge {
+  display: grid;
+  place-items: center;
+  min-width: 48px;
+  height: 48px;
+  border-radius: $radius-md;
+  background: $color-ink;
+  color: $color-surface;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.muted {
+  color: $color-subtle;
+  font-size: 13px;
+}
+
+.weather {
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: #f0fdfa;
+  color: #0f766e;
+  font-size: 14px;
+}
+
+.single {
+  margin: 0;
+  padding: 10px 14px;
+  border: 1px solid $color-border-soft;
+  border-radius: 12px;
+  background: #f8fafc;
+}

@@ -1,0 +1,17 @@
+@use "../../variables" as *;
+
+.budget {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+
+  span {
+    padding: 5px 12px;
+    border-radius: $radius-pill;
+    background: $color-accent-soft;
+    color: $color-accent-ink;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,41 @@
+$font-sans:
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  "PingFang SC",
+  "Microsoft YaHei",
+  sans-serif;
+
+$color-ink: #0f172a;
+$color-text: #334155;
+$color-muted: #64748b;
+$color-subtle: #94a3b8;
+$color-border: #e5e7eb;
+$color-border-soft: #eef2f7;
+$color-surface: #ffffff;
+$color-bg: #f5f7fb;
+$color-accent: #2563eb;
+$color-accent-2: #0d9488;
+$color-accent-soft: #eff6ff;
+$color-accent-ink: #1e40af;
+$color-success-bg: #ecfdf5;
+$color-success-border: #bbf7d0;
+$color-danger-bg: #fef2f2;
+$color-danger-border: #fecaca;
+$color-danger-ink: #991b1b;
+$color-warn-bg: #fffbeb;
+$color-warn-border: #fde68a;
+$color-info-bg: #f1f5f9;
+
+$radius-sm: 10px;
+$radius-md: 14px;
+$radius-lg: 20px;
+$radius-pill: 999px;
+
+$shadow-card: 0 18px 50px rgba(15, 23, 42, 0.06);
+$shadow-accent: 0 12px 24px rgba(37, 99, 235, 0.22);
+
+$bp-mobile: 640px;

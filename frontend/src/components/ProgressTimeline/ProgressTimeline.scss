@@ -1,0 +1,85 @@
+@use "../../variables" as *;
+
+.timeline {
+  padding: 16px;
+}
+
+.timeline ol {
+  display: grid;
+  gap: 8px;
+  max-height: 320px;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  list-style: none;
+}
+
+.event {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 10px;
+  border: 1px solid $color-border-soft;
+  border-radius: $radius-sm;
+  background: #f8fafc;
+  font-size: 13px;
+
+  &-icon {
+    flex: none;
+    width: 20px;
+    text-align: center;
+  }
+
+  &-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px;
+  }
+
+  &-agent {
+    color: #1e293b;
+    font-weight: 600;
+  }
+
+  &-message {
+    color: #475569;
+  }
+
+  &-done {
+    border-color: $color-success-border;
+    background: $color-success-bg;
+  }
+
+  &-error {
+    border-color: $color-danger-border;
+    background: $color-danger-bg;
+  }
+
+  &-tool_call,
+  &-tool_result {
+    background: $color-info-bg;
+  }
+
+  &-plan_done,
+  &-resolve_done,
+  &-draft_done {
+    border-color: #bfdbfe;
+    background: $color-accent-soft;
+  }
+
+  &-reflect_done {
+    border-color: $color-warn-border;
+    background: $color-warn-bg;
+  }
+
+  &-revise_done {
+    border-color: $color-success-border;
+    background: $color-success-bg;
+  }
+
+  &-agent_retry {
+    border-color: $color-warn-border;
+    background: $color-warn-bg;
+  }
+}

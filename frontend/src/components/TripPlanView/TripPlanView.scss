@@ -1,0 +1,30 @@
+@use "../../variables" as *;
+
+.trip {
+  display: grid;
+  gap: 18px;
+}
+
+.trip-head h2 {
+  margin: 0 0 6px;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+}
+
+.trip-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  color: #475569;
+  font-size: 14px;
+}
+
+.trip-summary {
+  margin: 12px 0;
+  color: $color-text;
+}
+
+.empty {
+  color: $color-muted;
+  text-align: center;
+}
